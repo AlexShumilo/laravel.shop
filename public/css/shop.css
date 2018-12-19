@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+a:hover {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.product-link:hover {
+    transform: scale(1.02);
+}
+.top-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #cecece;
+}
+.login-block {
+    padding-top: 15px;
+}
+.user_login {
+    color: rgba(156, 28, 0, 0.87);
+    font-weight: 600;
+}
+.product-card img {
+    width: 250px;
+    height: 250px;
+}
+.product img {
+    width: 350px;
+    height: 350px;
+}
+.product-description {
+    padding-top: 20px;
+}
